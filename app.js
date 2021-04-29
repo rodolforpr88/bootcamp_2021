@@ -1,13 +1,22 @@
-let password = 'hello';
+// Falsy {
+//  false
+//  0
+//  null
+//  undefined
+//  NaN
+// }
+let mystery = 0;
 
-if (password.length >= 6) {
-  // no spaces
-  if (password.indexOf(' ') === -1) {
-    console.log("Valid Password!");
-  }
-  else {
-    console.log("Password is long enough, but cannot contain spaces");
-  }
+if (mystery) {
+  console.log("TRUTH");
 } else {
-  console.log("Password must be longer");
+  console.log("FALSY");
+}
+
+// example to use
+let loggedInUser;
+if (loggedInUser) {
+  console.log("You are logged in!");
+} else {
+  console.log("Please Log in!");
 }
