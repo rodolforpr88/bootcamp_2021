@@ -1,15 +1,13 @@
-// let password = "chickenGal";
+// let age = 78;
 
-// if (password.length >= 8 && password.indexOf(' ') === -1) {
-//   console.log('VALID PASSWORD!');
+// if (age < 6 || age >= 65) {
+//   console.log('You get in for Free');
 // } else {
-//   console.log('INVALID PASSWORD!');
+//   console.log('You must payyyy');
 // }
 
-let num = 3;
+let color = 'violet';
 
-if (num >= 1 && num <= 10) {
-  console.log('Number is btw 1 and 10');
-} else {
-  console.log('Please guess a number btw 1 and 10');
+if (color === 'purple' || color === 'lilac' || color === 'violet') {
+  console.log('Great Choice!');
 }
