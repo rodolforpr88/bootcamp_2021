@@ -1,19 +1,14 @@
-// if (1 === 1) {
-//   console.log("It's True!");
-// }
-
-// if (1 !== 1) {
-//   console.log("It's True!");
-// }
-
+// Performance Review
+// 3 - Superstar
+// 2 - meets expectations
+// 1 - needs improvement
+// anything else - ?
 let rating = 3;
 
 if (rating === 3) {
-  console.log("You're a superstar!");
-}
-
-let num = 37;
-
-if (num % 2 !== 0) {
-  console.log("ODD NUMBER!");
+  console.log("YOU ARE A SUPERSTAR!");
+} else if (rating === 2) {
+  console.log("MEETS EXPECTATIONS!");
+} else if (rating === 1) {
+  console.log("NEEDS IMPROVEMENT!");
 }
