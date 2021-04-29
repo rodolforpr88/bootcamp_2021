@@ -3,3 +3,5 @@
 My code that I made in the course of 'Javascript': The Modern Javascript Bootcamp Course (2021)
 
 https://www.udemy.com/course/javascript-beginners-complete-tutorial/
+
+observation: I'm still doing this course and I'll Push section by section.
