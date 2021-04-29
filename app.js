@@ -1,22 +1,15 @@
-// Falsy {
-//  false
-//  0
-//  null
-//  undefined
-//  NaN
+// let password = "chickenGal";
+
+// if (password.length >= 8 && password.indexOf(' ') === -1) {
+//   console.log('VALID PASSWORD!');
+// } else {
+//   console.log('INVALID PASSWORD!');
 // }
-let mystery = 0;
 
-if (mystery) {
-  console.log("TRUTH");
-} else {
-  console.log("FALSY");
-}
+let num = 3;
 
-// example to use
-let loggedInUser;
-if (loggedInUser) {
-  console.log("You are logged in!");
+if (num >= 1 && num <= 10) {
+  console.log('Number is btw 1 and 10');
 } else {
-  console.log("Please Log in!");
+  console.log('Please guess a number btw 1 and 10');
 }
