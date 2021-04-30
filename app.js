@@ -1,13 +1,15 @@
-// let age = 78;
+let loggedInUser;
 
-// if (age < 6 || age >= 65) {
-//   console.log('You get in for Free');
-// } else {
-//   console.log('You must payyyy');
+if (!loggedInUser) {
+  console.log('Get out of here!');
+}
+
+let flavor = 'watermelon';
+
+// if (flavor !== 'grape' && flavor !== 'cherry') {
+//   console.log('We dont have that flavor');
 // }
 
-let color = 'violet';
-
-if (color === 'purple' || color === 'lilac' || color === 'violet') {
-  console.log('Great Choice!');
+if (!(flavor === 'grape' || flavor === 'cherry')) {
+  console.log('We only gave grape and cherry');
 }
