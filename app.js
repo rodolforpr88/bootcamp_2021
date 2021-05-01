@@ -1,15 +1,6 @@
-let loggedInUser;
-
-if (!loggedInUser) {
-  console.log('Get out of here!');
-}
-
-let flavor = 'watermelon';
-
-// if (flavor !== 'grape' && flavor !== 'cherry') {
-//   console.log('We dont have that flavor');
-// }
-
-if (!(flavor === 'grape' || flavor === 'cherry')) {
-  console.log('We only gave grape and cherry');
-}
+let x = 7;
+// Order
+// '!' -> && -> || unless u use '()'
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+x == 7 || x === 3 && x > 10;
+(x == 7 || x === 3) && x > 10;
