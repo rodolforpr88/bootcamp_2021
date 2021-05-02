@@ -1,5 +1,7 @@
-let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-// explanation
-// colors[0] = red
-// colors[7] = undefined
-// colors[color.lentgh-1]
+let shoopingList = ['cheedar cheese', '2% milk'];
+
+shoopingList[1] = 'whole milk';
+shoopingList[2] = 'Ice Cream';
+
+shoopingList[shoopingList.length] = 'Tomatoes';
+shoopingList[shoopingList.length] = 'Potatoes';
