@@ -1,20 +1,5 @@
-let num = 2;
+let shoppingList = ['cereal', 'cheese', 'ice']
 
-// if (num === 7) {
-//   console.log("GOOD");
-// } else {
-//   console.log("BAD");
-// }
+let lotto = [45, 12, 23, 25, 34]
 
-// num === 7 ? console.log("GOOD") : console.log("BAD");
-
-let status = 'offline';
-
-// let color;
-// if (status === 'offliine') {
-//   color = 'red';
-// } else {
-//   color = 'green';
-// }
-
-let color = status === 'offline' ? 'red' : 'green';
+let myCollection = [12, 'dog', true, null, NaN]
