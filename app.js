@@ -1,5 +1,5 @@
-let shoppingList = ['cereal', 'cheese', 'ice']
-
-let lotto = [45, 12, 23, 25, 34]
-
-let myCollection = [12, 'dog', true, null, NaN]
+let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+// explanation
+// colors[0] = red
+// colors[7] = undefined
+// colors[color.lentgh-1]
