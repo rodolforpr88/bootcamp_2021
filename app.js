@@ -1,14 +1,8 @@
-// push     - add
-// pop      - remove from end
-// shift    - remove from start
-// unshift  - add to start
+let fruits = ['apple', 'banana'];
+let veggies = ['asparagus', 'brussel sprouts'];
+let meats = ['steak', 'chicken breast'];
 
-let topSongs = [
-  'First Time Ever I saw Your Face',
-  'God Only Knows',
-  'A day in the life',
-  'Life on Mars'
-];
+console.log(fruits.concat(veggies));
+console.log(veggies.concat(fruits));
 
-topSongs.unshift(true);
-topSongs.shift();
+let allFood = fruits.concat(veggies, meats)
