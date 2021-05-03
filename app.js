@@ -1,14 +1,16 @@
-let animals = [
-  'shark',
-  'salmon',
-  'whale',
-  'bear',
-  'lizard',
-  'tortoise'
+const animalPairs = [
+  ['doe', ['buck', 'stag']],
+  ['ewe', 'ram'],
+  ['peahen', 'peacok']
 ];
 
-console.log(animals.sort());
+animalPairs[0][0]
+animalPairs[0][1]
 
-let nums = [23, 55, 88, 23, 10000];
+animalPairs[1][0]
+animalPairs[1][1]
 
-console.log(nums.sort());
+animalPairs[2][0]
+animalPairs[2][1]
+
+animalPairs[0][1][1]
