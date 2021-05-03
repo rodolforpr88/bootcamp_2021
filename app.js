@@ -1,7 +1,15 @@
-let shoopingList = ['cheedar cheese', '2% milk'];
+// push     - add
+// pop      - remove from end
+// shift    - remove from start
+// unshift  - add to start
 
-shoopingList[1] = 'whole milk';
-shoopingList[2] = 'Ice Cream';
+let topSongs = [
+  'First Time Ever I saw Your Face',
+  'God Only Knows',
+  'A day in the life',
+  'Life on Mars'
+];
 
-shoopingList[shoopingList.length] = 'Tomatoes';
-shoopingList[shoopingList.length] = 'Potatoes';
+topSongs.push('Fortunate Son');
+topSongs.push(true);
+topSongs.pop();
