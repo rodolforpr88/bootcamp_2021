@@ -7,7 +7,8 @@ let animals = [
   'tortoise'
 ];
 
-// index to start, delete count and items to insert
-animals.splice(1, 0, 'octopus');
+console.log(animals.sort());
 
-animals.splice(3, 2);
+let nums = [23, 55, 88, 23, 10000];
+
+console.log(nums.sort());
