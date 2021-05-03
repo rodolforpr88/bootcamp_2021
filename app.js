@@ -10,6 +10,5 @@ let topSongs = [
   'Life on Mars'
 ];
 
-topSongs.push('Fortunate Son');
-topSongs.push(true);
-topSongs.pop();
+topSongs.unshift(true);
+topSongs.shift();
