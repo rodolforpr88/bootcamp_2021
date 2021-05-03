@@ -1,8 +1,21 @@
-let fruits = ['apple', 'banana'];
-let veggies = ['asparagus', 'brussel sprouts'];
-let meats = ['steak', 'chicken breast'];
+let ingredients = [
+  'water',
+  'corn starch',
+  'flour',
+  'cheese',
+  'brown sugar',
+  'shrimp'
+]
 
-console.log(fruits.concat(veggies));
-console.log(veggies.concat(fruits));
+console.log(ingredients.includes('water'));
+console.log(ingredients.includes('fire'));
 
-let allFood = fruits.concat(veggies, meats)
+console.log(ingredients.includes('water', 3));
+console.log(ingredients.includes('water', 0));
+
+if (ingredients.includes('flour')) {
+  console.log('TRUE');
+}
+
+console.log(ingredients.indexOf('flour'));
+console.log(ingredients.indexOf('other'));
