@@ -1,13 +1,19 @@
-let ingredients = [
-  'water',
-  'corn starch',
-  'flour',
-  'cheese',
-  'brown sugar',
-  'shrimp'
-]
+let animals = [
+  'shark',
+  'salmon',
+  'whale',
+  'bear',
+  'lizard',
+  'tortoise'
+];
 
-console.log(ingredients);
-console.log(ingredients.reverse());
+let swimmers = animals.slice(0, 3);
 
-console.log(ingredients.join('-'));
+let mammals = animals.slice(2, 4);
+
+// let reptiles = animals.slice(4, 6);
+let reptiles = animals.slice(4);
+
+let quadruped = animals.slice(-3);
+
+let copy = animals.slice();
