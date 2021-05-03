@@ -1,20 +1,16 @@
-let num = 2;
+const animalPairs = [
+  ['doe', ['buck', 'stag']],
+  ['ewe', 'ram'],
+  ['peahen', 'peacok']
+];
 
-// if (num === 7) {
-//   console.log("GOOD");
-// } else {
-//   console.log("BAD");
-// }
+animalPairs[0][0]
+animalPairs[0][1]
 
-// num === 7 ? console.log("GOOD") : console.log("BAD");
+animalPairs[1][0]
+animalPairs[1][1]
 
-let status = 'offline';
+animalPairs[2][0]
+animalPairs[2][1]
 
-// let color;
-// if (status === 'offliine') {
-//   color = 'red';
-// } else {
-//   color = 'green';
-// }
-
-let color = status === 'offline' ? 'red' : 'green';
+animalPairs[0][1][1]
