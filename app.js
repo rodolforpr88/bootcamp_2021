@@ -7,13 +7,7 @@ let animals = [
   'tortoise'
 ];
 
-let swimmers = animals.slice(0, 3);
+// index to start, delete count and items to insert
+animals.splice(1, 0, 'octopus');
 
-let mammals = animals.slice(2, 4);
-
-// let reptiles = animals.slice(4, 6);
-let reptiles = animals.slice(4);
-
-let quadruped = animals.slice(-3);
-
-let copy = animals.slice();
+animals.splice(3, 2);
