@@ -1,11 +1,13 @@
-// function declaration or function keywork
-// function name(params) {
-//   // do something
-// }
-
-function grumpus() {
-  console.log('something...');
-  console.log('something again...');
-  console.log('something again again!...');
+function rollDie() {
+  let roll = Math.floor(Math.random() * 6) + 1;
+  console.log(`Rolled: ${roll}`);
 }
-grumpus();
+
+function throwDice() {
+  rollDie();
+  rollDie();
+  rollDie();
+  rollDie();
+  rollDie();
+  rollDie();
+}
