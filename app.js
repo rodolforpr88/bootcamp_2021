@@ -1,33 +1,22 @@
-// function square(x) {
-//   return x * x;
-// }
+// Write a isValidPassword function
+// It accepts 2 arguments: password and username
+// Password must:
+// - be at least 8 characters
+// - cannot contain spaces
+// - cannot contain the username
+// If all requirements are met, return true.
+// Otherwise: false
 
-// function isPurple(color) {
-//   if (color.toLowerCase() == 'purple') {
-//     return true;
-//     console.log('Not going to run!');
-//   }
-//   else {
-//     return false;
-//   }
-// }
+// isValidPassword('89Fjj1nms', 'dogLuvr); // true
 
-// function isPurple(color) {
-//   if (color.toLowerCase() == 'purple') {
-//     return true;
-//   }
-//   return false;
-// }
+// isValidPassword('dogLuvr123!', 'dogLuvr'); //false
 
-// function isPurple(color) {
-//   return color.toLowerCase() === 'purple';
-// }
-
-function containsPurple(arr) {
-  for (let color of arr) {
-    if (color === 'purple' || color === 'magenta') {
-      return true;
-    }
+// my solution
+// I did with 'includes' but the instructor used 'indexOf' instead.
+// password.includes(' ') // password.indexOf(' ')
+function isValidPassword(password, username) {
+  if (password.includes(username) || password.length < 8 || password.includes(' ')) {
+    return false;
   }
-  return false;
+  return true;
 }
