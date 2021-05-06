@@ -1,22 +1,13 @@
-// Write a isValidPassword function
-// It accepts 2 arguments: password and username
-// Password must:
-// - be at least 8 characters
-// - cannot contain spaces
-// - cannot contain the username
-// If all requirements are met, return true.
-// Otherwise: false
+// Wrote a function to find the avg value in an array numbers
 
-// isValidPassword('89Fjj1nms', 'dogLuvr); // true
-
-// isValidPassword('dogLuvr123!', 'dogLuvr'); //false
-
-// my solution
-// I did with 'includes' but the instructor used 'indexOf' instead.
-// password.includes(' ') // password.indexOf(' ')
-function isValidPassword(password, username) {
-  if (password.includes(username) || password.length < 8 || password.includes(' ')) {
-    return false;
-  }
-  return true;
+function avg(arr) {
+  let total = 0;
+  for (const num of arr) total += num;
+  return total / arr.length
 }
+
+// console out
+// avg([0,50])
+// 25
+// avg([75,76,80,95,100])
+// 85.2
