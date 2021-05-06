@@ -1,16 +1,12 @@
-const animalPairs = [
-  ['doe', ['buck', 'stag']],
-  ['ewe', 'ram'],
-  ['peahen', 'peacok']
-];
-
-animalPairs[0][0]
-animalPairs[0][1]
-
-animalPairs[1][0]
-animalPairs[1][1]
-
-animalPairs[2][0]
-animalPairs[2][1]
-
-animalPairs[0][1][1]
+function getCard(params) {
+  const values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
+  const suits = ['clubs', 'hearts', 'spades', 'diamond'];
+  sortedValue = Math.round((Math.random()) * values.length) - 1;
+  sortedSuit = Math.round((Math.random()) * suits.length) - 1;
+  let result = {
+    value: values[sortedValue],
+    suit: suits[sortedSuit]
+  };
+  return result;
+}
+// solution created the function 'pick' separeted
